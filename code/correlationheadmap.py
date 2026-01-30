@@ -34,5 +34,9 @@ sns.heatmap(
 plt.title("Correlation Heatmap")
 plt.show()
 
-plt.savefig("/data/mahasiswa/ramadhani/github/hasil/grafik_korelasi_parameter_pendukung.png", dpi=500)
+plt.savefig("/data/mahasiswa/ramadhani/github/hasil/grafik_korelasi_parameter_pendukung.pdf",
+            bbox_inches="tight"
+)
 plt.show()
+
+print("Grafik korelasi parameter pendukung selesai dan tersimpan.")
